@@ -14,3 +14,7 @@ In windows, you should keep the file (kaggle.json) in the same directory as the 
 '''
 #php
 kaggle datasets download <username>/<dataset-name>
+
+#after the download completed, extract the files and save it in the same working directory. You will get the cfg and the weights file.
+
+#here I have used : kaggle datasets download -d savanagrawal/helmet-detection-yolov3
