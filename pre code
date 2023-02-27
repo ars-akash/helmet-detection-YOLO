@@ -1,0 +1,16 @@
+#the below code is for installing kaggle and import the weight and cfg file for the detection
+#it should be run in the terminal if used in frameworks.
+#python
+! pip install kaggle
+
+'''
+After the installation, go to kaggle and download the API token from settings.   
+'''
+#java
+chmod 600 ~/.kaggle/kaggle.json
+
+'''
+In windows, you should keep the file (kaggle.json) in the same directory as the program file and provide full control. 
+'''
+#php
+kaggle datasets download <username>/<dataset-name>
